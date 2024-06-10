@@ -1,0 +1,256 @@
+
+@font-face {
+    font-family: "Plus Jakarta Sans";
+    src: url("./fonts/PlusJakartaSans-Italic-VariableFont_wght.ttf");
+}
+@font-face {
+    font-family: "Plus Jakarta Sans";
+    src: url("./fonts/PlusJakartaSans-VariableFont_wght.ttf");
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    font-family: "Plus Jakarta Sans"
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    width: 100%;
+    height: 100%;
+    background-color: #D6E1F0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+
+.card{
+    width: 20vw;
+    height: 52vh;
+    background-color: #ffffff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    border-radius: 1vw;
+    overflow: hidden;
+}
+
+#image{
+    width: 20vw;
+    height: 30vh;
+    padding: 1vw;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    border-radius: .5vw;
+}
+
+#text{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 1vw;
+    gap: 1vw;
+}
+
+#text h2{
+    font-size: 1.4vw;
+    font-weight: 800;
+}
+
+#text p{
+    font-size: .9vw;
+    font-weight: 400;
+    text-align: center;
+    color: rgb(139, 122, 122);
+}
+
+@media (max-width: 600px){
+    
+#main{
+    width: 100%;
+    height: 100%;
+    background-color: #D6E1F0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+
+.card{
+    width: 80vw;
+    height: 80vh;
+    background-color: #ffffff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    border-radius: 2vw;
+    overflow: hidden;
+    gap: 5vw;
+}
+
+#image{
+    width: 80vw;
+    height: 50vh;
+    padding: 2vw;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    border-radius: 1vw;
+}
+
+#text{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: vw;
+    gap: 3vw;
+}
+
+#text h2{
+    font-size: 5vw;
+    font-weight: 800;
+    
+}
+
+#text p{
+    font-size: 3.2vw;
+    font-weight: 500;
+    text-align: center;
+    color: rgb(139, 122, 122);
+    margin-top: 2vw;
+}
+}
+
+@media (max-width: 768px){
+    
+    #main{
+        width: 100%;
+        height: 100%;
+        background-color: #D6E1F0;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+    }
+    
+    .card{
+        width: 58vw;
+        height: 65vh;
+        background-color: #ffffff;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        border-radius: 2vw;
+        /* overflow: hidden; */
+        gap: 2vw;
+    }
+    
+    #image{
+        width: 58vw;
+        height: 40vh;
+        padding: 2vw;
+    }
+    
+    img{
+        width: 100%;
+        height: 100%;
+        -o-object-fit: cover;
+           object-fit: cover;
+        border-radius: 1vw;
+    }
+    
+    #text{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        padding: vw;
+        gap: 1.2vw;
+    }
+    
+    #text h2{
+        font-size: 3.3vw;
+        font-weight: 800;
+        
+    }
+    
+    #text p{
+        font-size: 2.3vw;
+        font-weight: 500;
+        text-align: center;
+        color: rgb(139, 122, 122);
+        margin-top: 2vw;
+    }
+    }
