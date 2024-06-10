@@ -215,10 +215,6 @@ img{
         width: 58vw;
         height: 40vh;
         padding: 2vw;
-        background-image: url("/images/image-qr-code.png");
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover; 
     }
     
     img{
